@@ -66,7 +66,10 @@ $(document).ready(function(){
 
 <!-- begin mobile phone # -->
 <div id="m-phone-number">
-    <a href="tel:{PHONE}">{PHONE}</a>
+    <a href="tel:{PHONE}">
+    	<div class="tagline2"><!-- {Tagline_2} --> Call Now</div>
+    	<div>{PHONE}</div>
+    </a>
 </div> 
 <!-- end mobile phone # -->
 
@@ -109,11 +112,13 @@ $(document).ready(function(){
 <div id="wrapper-header" class="skinBg"><!-- skinBg is one area the user will be able to swap images or change bg color through the design panel -->
 
 <header class="sk-container">
-<div id="logo" class="eleven columns">
-                    <a href="#">Company Name</a>
+	<div id="logo" class="eleven columns">
+        <a href="#">Company Name</a>
+        <div class="slogan"><!-- {Tagline_1} -->Your Slogan Goes Here</div>
      </div><!-- end logo -->
 	 <div id="phone-number" class="five columns">
-     	   404-555-5555
+     	   <div class="tagline2"><!-- {Tagline_2} --> Call Now</div>
+           <div>404-555-5555</div>
       </div><!-- end phone -->
       
 </header> <!-- end logo and phone number container -->
